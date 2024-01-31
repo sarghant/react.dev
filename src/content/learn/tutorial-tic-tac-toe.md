@@ -1155,7 +1155,7 @@ export default function Board() {
 }
 ```
 
-Next, you will need to pass that `i` to `handleClick`. You could try to set the `onSquareClick` prop of square to be `handleClick(0)` directly in the JSX like this, but it won't work:
+Next, you will need to pass that `i` to `handleClick`. You could try to set the `onSquareClick` prop of the `Square` component to be `handleClick(0)` directly in the JSX like this, but it won't work:
 
 ```jsx
 <Square value={squares[0]} onSquareClick={handleClick(0)} />
